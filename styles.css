@@ -358,7 +358,7 @@ nav {
 /* ... your existing CSS code ... */
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     /* nav {
         padding-inline: 20px;
     }
@@ -539,7 +539,7 @@ nav {
 /* Existing CSS (without the responsive styles) */
 /* ... your existing CSS code ... */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .section_left .left {
         font-size: 12px;
         padding: 0;
@@ -667,7 +667,7 @@ nav {
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -984,10 +984,10 @@ textarea.input {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .container {
     padding: 1.5rem;
-    margin-top: 752px;
+    margin-top: 948px;
     margin-left: 137px;
     width: 181%;
   }
@@ -1045,7 +1045,7 @@ textarea.input {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
 
 
   /* .nav-list {
@@ -1068,11 +1068,11 @@ textarea.input {
       flex-direction: column;
   }
 
-  .section_left {
+  /* .section_left {
     margin-top: 74px;
     margin-left: 518px;
     width: 196%;
-  }
+  } */
 
   .section_left h1 {
       font-size: 1.5em;
@@ -1096,8 +1096,8 @@ textarea.input {
       height: 100px;
   }
   .portfolio-box{
-    margin: 1000px 65px 165px;
-    width: 702px;
+    margin: 703px 239px 165px;
+    width: 1034px;
     padding-top: 89px;
     padding-bottom: 379px;
     display: list-item;
@@ -1113,10 +1113,10 @@ textarea.input {
 
   #about {
     padding: 14px;
-    margin-left: 88px;
+    margin-left: 373px;
     text-align: center;
     display: grid;
-    margin-bottom: 131px;
+    margin-bottom: 136px;
   }
 
   .about-details-container{
@@ -1129,7 +1129,7 @@ textarea.input {
   .profile-container img{
     width: 428px;
     margin-top: -56px;
-    margin-left: 503px;
+    margin-left: 1530px;
   }
 
 .skills-section {
@@ -1178,6 +1178,7 @@ textarea.input {
 #experience{
   padding-top: 327px;
   display: grid;
+  margin-left: 468px;
 }
 
 
@@ -1377,3 +1378,143 @@ footer {
     color: black;
     padding: 10px;
 }
+
+/* Existing CSS (without the responsive styles) */
+/* ... your existing CSS code ... */
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .nav {
+    padding-inline: 20px;
+  }
+
+  .logo {
+    padding: 13px 20px;
+  }
+
+  nav {
+    padding-inline: 10px;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: var(--color-button);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .nav_burger {
+    display: block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .nav_burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--title-color);
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+
+  .logo {
+    display: none; /* Hide the logo in responsive mode */
+  }
+
+  .main {
+    padding-inline: 20px;
+  }
+
+  .section_left {
+    width: 100%;
+    margin-left: 77px;
+    margin-top: -550px;
+    text-align: center;
+  }
+
+  .section_left h1 {
+    font-size: 28px;
+  }
+
+  .section_left .text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .btns {
+    margin-top: 20px;
+  }
+
+  .btns button {
+    width: 43%;
+  }
+
+  .section_right {
+    margin-top: 40px;
+  }
+
+  .section_right img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .media_container>div {
+    width: 120px;
+    height: 70px;
+  }
+
+  .media_container>div:nth-child(1) {
+    top: 35%;
+    left: 9%;
+  }
+
+  .media_container>div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+  }
+
+  .media_container>div:nth-child(3) {
+    top: -10%;
+    left: 58%;
+  }
+
+  .social_media {
+    top: auto;
+    right: 10px;
+    transform: translateY(0);
+    position: fixed;
+  }
+
+  .footer-container h3 {
+    margin-left: 321px;
+    width: 100%;
+  }
+  .socialIcons{
+    justify-content: center;
+    margin-left: 634px;
+  }
+
+
+}
+
