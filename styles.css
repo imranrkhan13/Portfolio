@@ -1517,4 +1517,105 @@ footer {
 
 
 }
+@media screen and (max-width: 320px){
+  .section_left {
+    margin-top: 99px;
+    margin-left: 741px;
+    font-size: 20px;
+    line-height: 1.8;
+    width: 270%;
+    font-size: 18px;
+
+  }
+  .profile-container img{
+    margin-left: 383px;
+    width: 123%;
+  }
+  br {
+    display: none;
+  }
+  .title br {
+    display: flex;
+  }
+  .title h1 {
+    line-height: 1.2; /* Adjust line height to fit more words in one line */
+}
+
+
+
+  /*Portfolio-box?*/
+
+  .portfolio-box{
+    width: 213%;
+    margin-left: 221px;
+    margin-top: 1135px;
+    padding-bottom: 820px;
+    padding-left: 117px;
+    padding-right: 126px;
+  }
+  .project-container-top,
+  .project-container-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  }
+  .project1, .project2, .project3, .project4 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .project-container-top, .project-container-bottom{
+    margin-bottom: 10px;
+  }
+
+  /* About me */ 
+
+  .section-container {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-pic {
+    width: 100%; 
+}
+
+.about-details-container {
+  width: 100%;
+  margin-top: -43px;
+  padding: 0 10px; 
+}
+.text-container {
+  width: 182%;
+  margin-left: -112px;
+}
+
+/*  Experience */
+
+#experience{
+  margin-top: 524px;
+  margin-left: 300px;
+}
+
+
+/* Contact form */
+  .container{
+    margin-left: 198px;
+    width: 245%;
+  }
+
+  /*  Footer */
+  .footer-container h3{
+    justify-content: center;
+    padding-right: 414px;
+  }
+  .socialIcons{
+   justify-content: center;
+   margin-left: 232px;;
+  }
+       
+
+
+}
 
