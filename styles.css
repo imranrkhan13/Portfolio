@@ -1538,7 +1538,7 @@ footer {
     display: flex;
   }
   .title h1 {
-    line-height: 1.2; /* Adjust line height to fit more words in one line */
+    line-height: 1.2; 
 }
 
 
@@ -1619,3 +1619,49 @@ footer {
 
 }
 
+
+@media screen and (max-width: 430px){
+  .section_left{
+    margin-top: 10px;
+  }
+  .profile-container img{
+    margin-left: 48px;
+    width: 82%;
+  }
+  br {
+    display: none;
+  }
+  .title br {
+    display: flex;
+  }
+  .title h1 {
+    line-height: 1.2; 
+}
+
+
+
+/* Project*/
+
+  .portfolio-box{
+    width: 86%;
+    margin-left: 42px;
+    margin-top: 494px;
+    padding-bottom: 516px;
+  }
+
+  .project-container-top,
+  .project-container-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  }
+  .project1, .project2, .project3, .project4 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .project-container-top, .project-container-bottom{
+    margin-bottom: 10px;
+  }
+
+}
