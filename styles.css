@@ -1518,15 +1518,7 @@ footer {
 
 }
 @media screen and (max-width: 320px){
-  .section_left {
-    margin-top: 99px;
-    margin-left: 741px;
-    font-size: 20px;
-    line-height: 1.8;
-    width: 270%;
-    font-size: 18px;
-
-  }
+  
   .profile-container img{
     margin-left: 383px;
     width: 123%;
@@ -1540,16 +1532,16 @@ footer {
   .title h1 {
     line-height: 1.2; 
 }
-
-
-
   /*Portfolio-box?*/
+  .portfolio{
+    margin-left: -92px;
+    width: 700%;
+  }
 
+ 
   .portfolio-box{
-    width: 213%;
-    margin-left: 221px;
-    margin-top: 1135px;
-    padding-bottom: 820px;
+    margin-top: 651px;
+
     padding-left: 117px;
     padding-right: 126px;
   }
@@ -1579,6 +1571,10 @@ footer {
 
 .about-pic {
     width: 100%; 
+}
+
+.about-containers{
+    margin-left: 10px;
 }
 
 .about-details-container {
@@ -1789,6 +1785,17 @@ footer {
   }
   footer{
     margin-left: -536px;
+
+  }
+}
+
+@media screen and (max-width: 375px){
+  .container{
+    margin-top: 1175px;
+
+  }
+  footer {
+    margin-left: -8px;
 
   }
 }
