@@ -14,6 +14,8 @@ const typed = new Typed('#element', {
     showCursor: true,
     cursorChar: "}"
 });
-
-
-
+document.addEventListener('touchmove', function (event) {
+    if (event.scale !== 1) { 
+        event.preventDefault(); 
+    }
+}, { passive: false });
