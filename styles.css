@@ -1574,22 +1574,28 @@ footer {
     align-items: center;
 }
 
+.titles{
+  padding-right: 109px;
+}
+#about .section__text__p1{
+  padding-right: 107px;
+}
+
 .about-pic {
-    width: 100%; 
+  width: 71%;
+  margin: 10px 97px 12px 10px;
 }
 
 .about-containers{
     margin-left: 10px;
 }
 
+
 .about-details-container {
-  width: 100%;
-  margin-top: -43px;
-  padding: 0 10px; 
-}
+      margin: 10px 120px 20px -7px;}
 .text-container {
-  width: 182%;
-  margin-left: -112px;
+  padding: 18px 58px 3px 38px;
+
 }
 
 /*  Experience */
@@ -1604,6 +1610,8 @@ footer {
   .container{
     margin-left: 198px;
     width: 245%;
+    padding-top: 514px;
+
     margin-top: 1085px;
 
   }
@@ -1611,14 +1619,18 @@ footer {
   /*  Footer */
   .footer-container h3{
     justify-content: center;
-     padding-right: 48px;
+     padding-right: 103px;
     ;
   }
   .socialIcons{
    justify-content: center;
-   margin-left: 232px;;
+   margin-left: 232px;
+   padding-right: 98px;
+   ;
   }
-       
+  #experience .titles{
+    padding-right: 10px;
+  }
 
 
 }
