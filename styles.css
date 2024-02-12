@@ -1805,3 +1805,29 @@ footer {
 
   }
 }
+@media screen and (max-width: 425px){
+  .social_media{
+    display: none;
+  }
+  .titles{
+    margin-bottom: 13px;
+
+  }
+  #experience{
+    padding-top: 394px;
+
+  }
+  .container{
+    margin-top: 636px;
+
+  }
+  .socialIcons{
+    margin-left: -397px;
+
+  }
+  .footer-container h3{
+    margin-left: -194px;
+
+  }
+
+}
