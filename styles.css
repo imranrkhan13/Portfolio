@@ -1754,7 +1754,8 @@ footer {
 @media screen and (max-width: 375px){
 
   .container{
-    margin-top: 1188px;
+    padding-top: 557px;
+
   }
   .portfolio-box{
     margin-left: 24px;
@@ -1769,15 +1770,15 @@ footer {
   .socialIcons{
     justify-content: center;
     margin-left: -449px;
-    width: 149%;
+    width: 144%;
 
   }
   .socialIcons a{
     padding: 2px;
   }
   .footer-container h3{
-    margin-left: -225px;
     font-size: 14px;
+    padding-right: 50px;
 
   }
   .details-container{
