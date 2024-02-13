@@ -1970,7 +1970,8 @@ footer {
     font-size: 16px;
    }
   .portfolio-box{
-      margin-left: 25px;
+    margin-left: 32px;
+
    }
   #about {
       margin-left: -20px;
@@ -1978,4 +1979,8 @@ footer {
 
 
 }
+@media screen and (max-width: 425px){
+  .portfolio-box {
+    margin-left: 28px;
+}}
 
