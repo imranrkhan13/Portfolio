@@ -1624,7 +1624,8 @@ footer {
   }
   .socialIcons{
    justify-content: center;
-   margin-left: 232px;
+   margin-left: -375px;
+
    padding-right: 98px;
    ;
   }
@@ -1852,7 +1853,25 @@ footer {
   }
 
 }
-@media screen and (max-width: 868px){
+@media screen and (max-width: 376px){
+  .container{
+    margin-top: 1149px;
+
+    }
+  .socialIcons{
+      margin-left: 621px;
+    }
+
+  .footer-container h3{
+      margin-left: 316px;
+      font-size: 16px;
+   }
+  .portfolio-box{
+      margin-left: 25px;
+   }
+  #about {
+      margin-left: -20px;
+   }
+
 
 }
-
