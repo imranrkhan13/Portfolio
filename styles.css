@@ -1811,6 +1811,10 @@ footer {
     margin-left: -536px;
 
   }
+  .about-containers{
+    margin-left: 64px;
+    width: 76%;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -1983,4 +1987,10 @@ footer {
   .portfolio-box {
     margin-left: 28px;
 }}
-
+@media screen and (max-width: 421px){
+#experience {
+  padding-top: 519px;}
+  .text-container {
+    margin-left: 8px;
+  }
+}
