@@ -1875,3 +1875,26 @@ footer {
 
 
 }
+@media screen and (max-width: 380px){
+  .container{
+    margin-top: 1149px;
+
+    }
+  .socialIcons{
+      margin-left: 621px;
+    }
+
+  .footer-container h3{
+      margin-left: 316px;
+      font-size: 16px;
+   }
+  .portfolio-box{
+      margin-left: 25px;
+   }
+  #about {
+      margin-left: -20px;
+   }
+
+
+}
+
