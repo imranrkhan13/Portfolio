@@ -563,6 +563,8 @@ nav {
 
 .title p {
     font-size: 20px;
+    text-align: justify;
+
 }
 
 
@@ -647,8 +649,8 @@ nav {
 }
 
 .portfolio h2{
-    text-align: center;
-    margin-top: 209px;
+  margin-top: 63px;
+
 }.project2{
   margin: 10px 20px 15px 20px;
 }
@@ -1210,16 +1212,20 @@ textarea.input {
 }
 
 p {
+  text-align: center;
+
   font-size: 0.9em;
   color: #555;
 }
 
 #about {
+  margin-top: 10pc;
+
   position: relative;
 }
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  /* padding-top: 4vh;
+  height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -1295,8 +1301,8 @@ section {
 
 
 #experience {
-  position: relative;
-  text-align: center;
+  margin-top: 10pc;
+
 }
 
 .experience-sub-title {
