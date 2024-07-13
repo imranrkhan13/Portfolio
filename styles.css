@@ -841,7 +841,7 @@
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #86B6F6;
+    background-color: #1abc9c;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -2134,6 +2134,13 @@
     }
     .title p {
       text-align: center;
+    }
+    
+    
+    .experience-details-container {
+      display: flex;
+      width: 92%;
+      margin-left: 1pc;
     }
 }
 
